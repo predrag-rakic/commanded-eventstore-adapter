@@ -39,7 +39,7 @@ defmodule Commanded.EventStore.Adapters.EventStore.Mixfile do
 
   defp deps do
     [
-      {:commanded, "~> 1.4"},
+      {:commanded, git: "git@github.com:predrag-rakic/commanded"},
       {:eventstore, "~> 1.4"},
 
       # Optional dependencies
